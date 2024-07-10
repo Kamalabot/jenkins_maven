@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    tools {
+        maven 'MAVEN'
+    }
+    stages {
+        stage('build') {
+            steps {
+                echo 'Building Junit Project'
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'kbot', url: 'https://github.com/Kamalabot/jenkins_maven.git']])
+                bat 'mvn -DMaven.test.failure.ignore=true clean package'
+            }
+        }
+    }
+}
