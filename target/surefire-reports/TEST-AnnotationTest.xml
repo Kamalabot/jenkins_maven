@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="AnnotationTest" time="0.1" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\gitFolders\code_for_57_exercises\introjunit\target\test-classes;D:\gitFolders\code_for_57_exercises\introjunit\target\classes;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\kamal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\kamal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\kamal\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kamal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\kamal\AppData\Local\Temp\surefire17095282420980637430\surefirebooter11563768029646230222.jar C:\Users\kamal\AppData\Local\Temp\surefire17095282420980637430 2024-07-10T07-26-57_574-jvmRun1 surefire17704636182092313339tmp surefire_04645758891651251801tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\gitFolders\code_for_57_exercises\introjunit\target\test-classes;D:\gitFolders\code_for_57_exercises\introjunit\target\classes;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\kamal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kamal\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\kamal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\kamal\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\kamal\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\kamal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kamal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kamal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\gitFolders\code_for_57_exercises\introjunit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.70+15-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kamal\AppData\Local\Temp\surefire17095282420980637430\surefirebooter11563768029646230222.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.22+7-LTS"/>
+    <property name="user.name" value="kamal"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.70+15-CA"/>
+    <property name="localRepository" value="C:\Users\kamal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kamal\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.22"/>
+    <property name="user.dir" value="D:\gitFolders\code_for_57_exercises\introjunit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\PowerShell\7;C:\Program Files\ImageMagick-7.1.1-Q16-HDRI;C:\Program Files\Zulu\zulu-11\bin\;C:\swigwin-3.0.12;D:\Python311\Scripts\;D:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\installers\ffmpeg;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PowerShell\7\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.1.1\;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\kamal\.wasmer\bin;;C:\Users\kamal\.wasmer\globals\wapm_packages\.bin;C:\Program Files\Wasmtime\bin;C:\Users\kamal\.cargo\bin;C:\Users\kamal\scoop\apps\gcc\current\bin;C:\Users\kamal\scoop\shims;D:\python_installs\Scripts\;D:\python_installs\;C:\Users\kamal\AppData\Local\Microsoft\WindowsApps;D:\JetBrains\PyCharm2023\bin;D:\installers\ffmpeg\;C:\Program Files\qemu;C:\Program Files\Oracle\VirtualBox;D:\installers\kdenlive\kdenlive-23.08.2_standalone\bin;C:\Users\kamal\go\bin;C:\Program Files (x86)\Nmap;C:\Users\kamal\AppData\Roaming\npm;C:\Users\kamal\AppData\Roaming\Python\Python312\Scripts;C:\Program Files\Graphviz\bin;C:\Users\kamal\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\ta-lib;c:\users\kamal\.local\bin;C:\Users\kamal\.bun\bin;C:\Users\kamal\AppData\Local\Programs\oh-my-posh\bin;C:\msys64\ucrt64\bin;D:\installers\micro;D:\installers\maven_install\bin;C:\Users\kamal\.wasmer\bin;D:\gitFolders\emsdk;D:\gitFolders\emsdk\upstream\emscripten;C:\Program Files\Wasmtime\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.22+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="sampleTest" classname="AnnotationTest" time="0.054"/>
+</testsuite>
